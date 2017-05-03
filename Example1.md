@@ -12,3 +12,8 @@
 ### For the transformation of data, Qlik has hundred of powerful functions for data aggregation, mathematical calculation, string manipulation, statistical testing, data mapping, etc.
  ![Load script2](/images/loadScript2.bmp)
 ### For example, code above shows the using of "ApplyMap" function. This enables the conversion of code to name or name to another name.
+## 1-3.Dashboard
+### In this section,
+ ![Dashboard](/images/dashboard.bmp)
+## 1-4.Decile analysis
+### In this section,  
