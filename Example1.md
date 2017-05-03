@@ -11,9 +11,9 @@
 ### As you can see easily, syntax of load script is quite similar to SQL language but different points are 1) you don't have to create table since Qlik employs column based data model, 2) you don't have to care about indecies since Qlik employs "natural" connection of data items only with column names(you never use "join" on Qlik!!) and 3) you can add columns without define them beforehand. 
 ### For the transformation of data, Qlik has hundreds of powerful functions for data aggregation, mathematical calculation, string manipulation, statistical testing, data mapping, etc.
  ![Load script2](/images/loadScript2.bmp)
-### For example, code above shows the using of "ApplyMap" function. This enables the conversion of code to name or name to another name.
+### For example, sample code above shows the using of "ApplyMap" function. This enables the conversion of code to name or name to another name.
 ## 1-3.Dashboard
-### In this section,
+### In this section, I'd show you the sample of dashoboard based on the data model explained in the previous section.
  ![Dashboard](/images/dashboard.bmp)
 ## 1-4.Decile analysis
-### In this section,  
+### In this section, I'd show you the "decile analysis" as one sample of typical retail analysis especially effective when you try to segment customers. 
