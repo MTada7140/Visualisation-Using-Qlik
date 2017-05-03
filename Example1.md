@@ -4,7 +4,7 @@
 ###   I'd present the data model for this example as follows.
 ![Data model](/images/dataModel.bmp)
 ### Unlike "ordinary" Business Intelligence software, Qlik employs the unique and proprietary data format called assosiative model. It stores all the data records into main memory when Qlik is running. And the "Document file" of Qlik contains everything needed for analysis including load script (script language used for data loading), all the data records and visualisation components.
-## 1-2.Load script(ETL feature of Qlik)
+## 1-2.Load script(ETL features of Qlik)
 ### In this section, I'd like to explain a little bit about load script of Qlik. With load script of Qlik, you can extract data from wide variety of sources including RDBMS, CSV/text file, Excel Spreadsheet, business systems(SAP, SFDC) etc. 
 ### In this example, I use MySql as the datasource with ODBC connection. I'd present part of script I created as follows.
  ![Load script](/images/loadScript1.bmp)
