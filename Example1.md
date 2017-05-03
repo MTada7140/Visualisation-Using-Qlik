@@ -13,7 +13,7 @@
  ![Load script2](/images/loadScript2.bmp)
 ### For example, sample code above shows the using of "ApplyMap" function. This enables the conversion of code to name or name to another name.
 ## 1-3.Dashboard
-### In this section, I'd show you the sample of dashoboard based on the data model explained in the previous section.
+### In this section, I would show you the sample of dashoboard based on the data model explained in the previous sections.
  ![Dashboard](/images/dashboard.bmp)
 ## 1-4.Decile analysis
 ### In this section, I'd show you the "decile analysis" as one sample of typical retail analysis especially effective when you try to segment customers. 
