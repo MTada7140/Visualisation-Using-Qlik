@@ -15,5 +15,6 @@
 ## 1-3.Dashboard
 ### In this section, I would show you the sample of dashoboard based on the data model explained in the previous sections.
  ![Dashboard](/images/dashboard.bmp)
+### In the dashboard above, you can see how associative model of Qlik works. In the sample, you can see values highlighted with green colour on the items "Year" and "Region". This means that you selected these values. In accordance with your selection, the white values are hit as in the six values incl. "Auckland", "Bay of Plenty", "Hawkes Bay",,, in "StoreCity" item. Also you can see the greyed value of "Canterbury" in the same item, which means "not hit" values of this pattern of selection. In Qlik, you just click on the value(s) you want to select and the result is shown in three colours; green, white and grey. This is quite simple but quite powerful because in the case of "ordinary" BI tools, you can easily see the values which are selected with your query, but usually, you can't see which were "not" hit. 
 ## 1-4.Decile analysis
 ### In this section, I'd show you the "decile analysis" as one sample of typical retail analysis especially effective when you try to segment customers. 
