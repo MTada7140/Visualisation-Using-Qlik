@@ -19,3 +19,8 @@
 ## 1-4.Decile analysis
 ### In this section, I'd show you the "decile analysis" as one sample of typical retail analysis especially effective when you try to segment customers. 
  ![Decile example1](/images/decile1.bmp)
+### Above is the a simple sample of decile analysis. This table was formulated segmentation of customers based on sum of sales amount in certain period of time. In Qlik, to calculate "Decile" rank on the left of the table, you can use "fractile" function in the chart hence the calculation is done dynamically as you select any period of time(year(s),month(s),day(s)...any combinations are possible). I'd show you the function for this table below.
+ ![Decile example2](/images/fractile.bmp)
+### Also you can calculate cumulative sum dynamically as below.
+ ![Decile example3](/images/cumulative.bmp) 
+### With using these functions, you can do the decile analysis without aggregate your tables beforehand. It is another example of Qlik's powerful visualisation.   
