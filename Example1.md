@@ -23,4 +23,11 @@
  ![Decile example2](/images/fractile.bmp)
 ### Also you can calculate cumulative sum dynamically as below.
  ![Decile example3](/images/cumulative.bmp) 
-### With using these functions, you can do the decile analysis without aggregate your tables beforehand. It is another example of Qlik's powerful visualisation.   
+### With using these functions, you can do the decile analysis without aggregate your tables beforehand. It is another example of Qlik's powerful visualisation. 
+## 1-5.Comparison of decile ranks quarter by quater
+### One interesting analysis using decile is shown below. This is the comparison of decile "ranks" over quarter. With this, you can see the "shifting" of behaviour of customers over time. You can quantify the effectiveness of your sales promotions, campaigns and advertisement easily.
+ ![Decile example3](/images/decile2.bmp)
+### In order to do this, I created another dimension using "SET analysis" of Qlik. Set analysis enables the comaring of group of records on the fly without calculating aggregations beforehand.
+ ![Decile example2](/images/fractile2.bmp)
+### In the example above, dollar sign denotes the current selection(=original set). Whereas, in this case, set to be compared is defined by the expression "<currentQuarter = {"$(=previousQuarter)"}>", which extract atothr set of records representing the sales amount of previous quarter.
+    
