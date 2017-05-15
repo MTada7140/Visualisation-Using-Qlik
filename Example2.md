@@ -15,15 +15,8 @@
 ## 2-3.Gantt chart
 ### In this section, I'd show you an example of "gantt chart" as one sample of typical project scheduling visualisation in the manufacturing industry. 
  ![Gantt example](/images/gantt.bmp)
-### Above is the a simple sample of decile analysis. This table was formulated segmentation of customers based on sum of sales amount in certain period of time. In Qlik, to calculate "Decile" rank on the left of the table, you can use "fractile" function in the chart hence the calculation can be done dynamically as you select any period of time(year(s),month(s),day(s)...any combinations are possible). I'd show you the function for this table below.
+### Above is the a simple sample of gantt chart. This table was formulated segmentation of customers based on sum of sales amount in certain period of time. In Qlik, to calculate "Decile" rank on the left of the table, you can use "fractile" function in the chart hence the calculation can be done dynamically as you select any period of time(year(s),month(s),day(s)...any combinations are possible). I'd show you the function for this table below.
  ![Decile example2](/images/fractile.bmp)
 ### Also you can calculate cumulative sum dynamically as below.
  ![Decile example3](/images/cumulative.bmp) 
 ### With using these functions, you can do the decile analysis without aggregate your tables beforehand. It is another example of Qlik's powerful visualisation. 
-## 1-5.Comparison of decile ranks quarter by quater
-### One interesting analysis using decile is shown below. This is the comparison of decile "ranks" over quarter. With this, you can see the "shifting" of behaviour of customers over time. You can quantify the effectiveness of your sales promotions, campaigns and advertisement easily.
- ![Decile example3](/images/decile2.bmp)
-### In order to do this, I created another dimension using "SET analysis" of Qlik. Set analysis enables the comaring of group of records on the fly without calculating aggregations beforehand.
- ![Decile example2](/images/fractile2.bmp)
-### In the example above, dollar sign denotes the current selection(=original set). Whereas, the set to be compared is defined by the expression "<currentQuarter = {"$(=previousQuarter)"}>", which extract atothr set of records representing the sales amount of previous quarter.
-    
