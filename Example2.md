@@ -15,4 +15,4 @@
 ## 2-3.Gantt chart
 ### In this section, I'd show you an example of "gantt chart" as one sample of typical project scheduling visualisation in the manufacturing industry. 
  ![Gantt example](/images/gantt.bmp)
-### Above is the a simple sample of gantt chart. In this chart you can see the quarterly scheduling of some tasks in the projects chlonologically. The time pitch of time span can be set automatically in accordance with the data selected.
+### Above is the a simple sample of gantt chart. In this chart you can see the quarterly scheduling of some tasks in the projects chlonologically. The time pitch of time span can be set automatically in accordance with the data selected. Also you can see the duration of tasks indicated on the end of bars.
