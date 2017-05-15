@@ -15,8 +15,4 @@
 ## 2-3.Gantt chart
 ### In this section, I'd show you an example of "gantt chart" as one sample of typical project scheduling visualisation in the manufacturing industry. 
  ![Gantt example](/images/gantt.bmp)
-### Above is the a simple sample of gantt chart. This table was formulated segmentation of customers based on sum of sales amount in certain period of time. In Qlik, to calculate "Decile" rank on the left of the table, you can use "fractile" function in the chart hence the calculation can be done dynamically as you select any period of time(year(s),month(s),day(s)...any combinations are possible). I'd show you the function for this table below.
- ![Decile example2](/images/fractile.bmp)
-### Also you can calculate cumulative sum dynamically as below.
- ![Decile example3](/images/cumulative.bmp) 
-### With using these functions, you can do the decile analysis without aggregate your tables beforehand. It is another example of Qlik's powerful visualisation. 
+### Above is the a simple sample of gantt chart. In this chart you can see the quarterly scheduling of some tasks in the projects chlonologically. The time pitch of time span can be set automatically in accordance with the data selected.
