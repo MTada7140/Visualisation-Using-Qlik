@@ -12,5 +12,7 @@
 ### This functionality of Qlik is quite easy for every user because we don't have to issue any command to select the data. Only to click on the values make the 'selection(s)' of data.
 ## 2-3.Sample of profitability analysis dashboard
 ### In this section, I'd show you an example of profitability analysis dashboard as below. 
- ![Gantt example](/images/finDashboard2.bmp)
-### Above is the a simple sample of gantt chart. In this chart you can see the quarterly scheduling of some tasks in the projects chlonologically. The time pitch of time span can be set automatically in accordance with the data selected. Also you can see the duration of tasks indicated on the end of bars.
+ ![Profitability example](/images/finDashboard2.bmp)
+### In the sample dashboard above, I would like to mention about the waterfall chart, which is typically used in profitability analysis. This is the kind of bar chart, but all the sum of the bars are equal to the sales amount. And subtractions of costs or expences from sales make up the final profit. I'd like to show you the 'normal' bar chart example of same thing as below. 
+ ![Noemal chart example](/images/finDashboard22.bmp)  
+### Now you can see the 'benefit' of the waterfall chart very clearly. With waterfall chart, you can see the 'impact' of each component quite clearly. So you can decide which action will be required easily with using it.
