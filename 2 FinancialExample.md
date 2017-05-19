@@ -7,8 +7,10 @@
 ## 2-2.Sample of Sales dashboard
 ### In this ection, I would show you the sample of sales dashboard as the first example of financial analysis.
  ![sales dashboard Sample](/images/finDashboard1.bmp)
-### In the sample above, you can see how a SPC chart works. You can grasp the behaviour of a manufacturing proces at a glance. Alongside the chart, you can see the main statistics of the data. To create SPC charts, it is essential for us to calculate and present these statistics. In order to calculate these statistices, I prepared three variables using 'Let' statements in the script shown in 2-1. These variables store the pre-calculated sum, average and standard deviation and make the calculation very easy. It is another good example of powerful statistical functinality of Qlik. The centre line of the chart represents average of observations and called CL(centre line). The upper and lower lines of the CL are called UCL(Upper Control Limit) and LCL(Lower Control Limit) respectively, showing divergence of 3 times the standard deviation value from the average. In other words, it is the objective of this control chart to grasp the value falling within the range corresponding to 6 times the standard deviation up and down as the value within the control limit. And this kind of control chart is called as 'X-bar R control chart' usually and it is the most frequently used for process controlling because of its effectiveness and easiness of creation.
-## 2-3.Gantt chart
-### In this section, I'd show you an example of "gantt chart" as one sample of typical project scheduling visualisation in the manufacturing industry. 
- ![Gantt example](/images/gantt.bmp)
+### In the sample above, you can see five charts created from financial data model shown on the previous section. As the nature of the "associative" database of Qlik, you can click on all the values shown on the charts in order to issue query. For example, if you click on the "Sales 1" section name on the left hand soide chart named "Monthly sales achievement", all the charts limit the data records which are used for creating the charts. I'd show the example of 'selected' charts as below. 
+ ![sales dashboard Sample](/images/finDashboard1selected.bmp) 
+### This functionality of Qlik is quite easy for every user because we don't have to issue any command to select the data. Only to click on the values make the 'selection(s)' of data.
+## 2-3.Sample of profitability analysis dashboard
+### In this section, I'd show you an example of profitability analysis dashboard as below. 
+ ![Gantt example](/images/finDashboard2.bmp)
 ### Above is the a simple sample of gantt chart. In this chart you can see the quarterly scheduling of some tasks in the projects chlonologically. The time pitch of time span can be set automatically in accordance with the data selected. Also you can see the duration of tasks indicated on the end of bars.
