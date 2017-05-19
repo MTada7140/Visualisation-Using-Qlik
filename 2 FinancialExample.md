@@ -1,4 +1,4 @@
-# 2.Visualisation example of financial analysis(under construction)
+# 2.Visualisation example of financial analysis
 
 ## 2-1.Data model
 ###   The data model for this example is shown as follows.
